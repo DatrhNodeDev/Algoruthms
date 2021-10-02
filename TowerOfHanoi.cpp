@@ -18,6 +18,7 @@ void TowerOfHanoi(int n, char a, char b, char c){
 int main()
 {
     int n;
+    cout<<"enter a number"<<endl;
     cin>>n;
     TowerOfHanoi(n,'A','B','C');
 }
